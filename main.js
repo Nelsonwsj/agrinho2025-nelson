@@ -3,9 +3,9 @@ const sideMenu = document.getElementById("side-menu");
 const closeMenu = document.getElementById("close-menu");
 
 menuToggle.addEventListener("click", () => {
-  sideMenu.classList.remove("hidden");
+  sideMenu.classList.add("show");
 });
 
 closeMenu.addEventListener("click", () => {
-  sideMenu.classList.add("hidden");
+  sideMenu.classList.remove("show");
 });
