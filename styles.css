@@ -106,3 +106,33 @@ footer {
   padding: 15px;
   font-size: 14px;
 }
+.download {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #e0e0e0;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-btn:hover {
+  background-color: #c0c0c0;
+}
+
+footer.partners {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+footer.partners .logos img {
+  height: 40px;
+  margin: 5px 10px;
+  vertical-align: middle;
+}
